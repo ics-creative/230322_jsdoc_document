@@ -2,11 +2,11 @@
   "name": "example-tsdoc",
   "private": true,
   "devDependencies": {
-    "prettier": "^2.7.1",
-    "typedoc": "^0.23.28"
+    "prettier": "^3.0.0",
+    "typedoc": "^0.24.8"
   },
   "scripts": {
-    "doc": "typedoc --entryPointStrategy expand ./src --out ../docs/typedoc --excludeNotDocumentedKinds Function",
+    "doc": "typedoc --entryPointStrategy expand ./src --out ../docs/typedoc --excludeNotDocumentedKinds Function  --readme README.md",
     "format": "prettier --write src"
   }
 }

@@ -7,7 +7,10 @@ export class Point {
    * @param x X座標
    * @param y Y座標
    */
-  constructor(public x: number, public y: number) {}
+  constructor(
+    public x: number,
+    public y: number,
+  ) {}
 
   /**
    * (0,0) からこのポイントまでの線のセグメントの長さです。
